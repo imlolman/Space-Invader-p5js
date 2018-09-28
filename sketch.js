@@ -28,10 +28,10 @@ function draw(){
     }
     gun.show()
 
-/*     if(keyIsDown(32)){
+     if(keyIsDown(32)){
         var bullet = new Bullet(gun.x)
         bullets.push(bullet)
-    } */
+    } 
     
     for(var i=0;i<cages.length;i++){
         for(var j=0;j<bullets.length;j++){
