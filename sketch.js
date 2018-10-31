@@ -21,17 +21,17 @@ function setup(){
 function draw(){
     var shiftDown = false;
     background(51)
-    /* if(keyIsDown(RIGHT_ARROW)){
+    if(keyIsDown(RIGHT_ARROW)){
         gun.move(1)
     }else if(keyIsDown(LEFT_ARROW)){
         gun.move(-1)
-    } */
+    }
     gun.show()
 
-     if(keyIsDown(32)){
+     /*if(keyIsDown(32)){
         var bullet = new Bullet(gun.x)
         bullets.push(bullet)
-    } 
+    }*/ 
     
     for(var i=0;i<cages.length;i++){
         for(var j=0;j<bullets.length;j++){
