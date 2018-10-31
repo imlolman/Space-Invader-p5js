@@ -21,11 +21,11 @@ function setup(){
 function draw(){
     var shiftDown = false;
     background(51)
-    if(keyIsDown(RIGHT_ARROW)){
+    /* if(keyIsDown(RIGHT_ARROW)){
         gun.move(1)
     }else if(keyIsDown(LEFT_ARROW)){
         gun.move(-1)
-    }
+    } */
     gun.show()
 
      if(keyIsDown(32)){
