@@ -10,6 +10,7 @@ function Bullet(x){
     }
 
     this.show = function(){
+        stroke(255)
         fill(100,0,250)
         this.y -= this.speed
         ellipse(this.x,this.y,this.r*2,this.r*2)
